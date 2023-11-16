@@ -10,9 +10,9 @@ BATCH: D98
 
 DOMAIN : DATA SCIENCE
 
-DEMO VIDEO URL :
+DEMO VIDEO URL :  https://www.linkedin.com/posts/ramyakrishnan19_exciting-news-my-first-project-youtube-activity-7130814799369695232-Mv3O?utm_source=share&utm_medium=member_desktop
 
-Linked in URL : 
+Linked in URL : www.linkedin.com/in/ramyakrishnan19
 
 # Overview
 This project is designed to extract data from YouTube using a provided channel ID, store the data in MongoDB Atlas, and provide options to migrate the data to a MySQL database for further analysis. The project utilises Python, various libraries, and Streamlit to create a user-friendly web page.

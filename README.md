@@ -1,5 +1,19 @@
 # YouTube Data Harvesting And Warehousing
 
+YouTube-Data-Harvesting-and-Warehousing-using-SQL-MongoDB-and-Streamlit.
+
+Problem Statement: The problem statement is to create a Streamlit application that allows users to access and analyze data from multiple YouTube channels.
+
+NAME : Ramya Krishnan A
+
+BATCH: D98
+
+DOMAIN : DATA SCIENCE
+
+DEMO VIDEO URL :
+
+Linked in URL : 
+
 # Overview
 This project is designed to extract data from YouTube using a provided channel ID, store the data in MongoDB Atlas, and provide options to migrate the data to a MySQL database for further analysis. The project utilises Python, various libraries, and Streamlit to create a user-friendly web page.
 

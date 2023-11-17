@@ -18,49 +18,49 @@ Linked in URL : www.linkedin.com/in/ramyakrishnan19
 This project is designed to extract data from YouTube using a provided channel ID, store the data in MongoDB Atlas, and provide options to migrate the data to a MySQL database for further analysis. The project utilises Python, various libraries, and Streamlit to create a user-friendly web page.
 
 # Prerequisites
-•	Python 3.11 or higher
-
-•	VS Code
- 
-•	MySQL
-
-•	MongoDB Atlas
-
-•	YouTube API Key
-
-•	Required Python libraries:
-
-•	pymongo
-
-•	googleapiclient
-
-•	mysql.connector
-
-•	streamlit
-
-•	plotly.express
-
-•	pandas
-
-•	re
-
-•	datetime
+	•	Python 3.11 or higher
+	
+	•	VS Code
+	 
+	•	MySQL
+	
+	•	MongoDB Atlas
+	
+	•	YouTube API Key
+	
+  # Required Python libraries:
+	
+	•	pymongo
+	
+	•	googleapiclient
+	
+	•	mysql.connector
+	
+	•	streamlit
+	
+	•	plotly.express
+	
+	•	pandas
+	
+	•	re
+	
+	•	datetime
 
 # Instructions
 
 1. Install the required Python libraries:
 
-• pip install pymongo
-
-• pip install googleapiclient
-
-• pip install mysql-connector-python 
-
-• pip install streamlit
-
-• pip install plotly 
-
-• pip install pandas
+	• pip install pymongo
+	
+	• pip install googleapiclient
+	
+	• pip install mysql-connector-python 
+	
+	• pip install streamlit
+	
+	• pip install plotly 
+	
+	• pip install pandas
 
 2. Set up your MongoDB Atlas account and obtain the connection string.
 
@@ -70,21 +70,21 @@ This project is designed to extract data from YouTube using a provided channel I
 
 5. Create a .env file with the following information:
 
-• MONGODB_URI=your_mongodb_connection_string
-
-• MYSQL_HOST=your_mysql_host
-
-• MYSQL_USER=your_mysql_user
-
-• MYSQL_PASSWORD=your_mysql_password
-
-• MYSQL_DATABASE=your_mysql_database
-
-• YOUTUBE_API_KEY=your_youtube_api_key
+	• MONGODB_URI=your_mongodb_connection_string
+	
+	• MYSQL_HOST=your_mysql_host
+	
+	• MYSQL_USER=your_mysql_user
+	
+	• MYSQL_PASSWORD=your_mysql_password
+	
+	• MYSQL_DATABASE=your_mysql_database
+	
+	• YOUTUBE_API_KEY=your_youtube_api_key
 
 6. Run the Streamlit web application
 
-• streamlit run app.py
+	• streamlit run app.py
 
 # Features
 

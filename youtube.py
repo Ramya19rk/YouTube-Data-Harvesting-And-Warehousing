@@ -562,6 +562,7 @@ if st.button("Collect and Store Data"):
 if st.button("Migrate to SQL"):
     Table = tables()
     st.success(Table)
+    st.balloons()
     
 show_table = st.radio("SELECT THE TABLE FOR VIEW [MONGODB VALUES IN TABLE FORMATE]",("CHANNALS","PLAYLISTS","VIDEOS","COMMENTS"))
 

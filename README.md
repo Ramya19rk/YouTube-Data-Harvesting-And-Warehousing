@@ -10,8 +10,8 @@ BATCH: D98
 
 DOMAIN : DATA SCIENCE
 
-DEMO VIDEO URL :  https://www.linkedin.com/posts/ramyakrishnan19_exciting-news-my-first-project-youtube-activity-7130814799369695232-Mv3O?utm_source=share&utm_medium=member_desktop
-
+DEMO VIDEO URL :  [https://www.linkedin.com/posts/ramyakrishnan19_exciting-news-my-first-project-youtube-activity-7130814799369695232-Mv3O?utm_source=share&utm_medium=member_desktop
+](https://www.linkedin.com/posts/ramyakrishnan19_exciting-news-my-first-project-youtube-activity-7131152157034119168-GHNZ?utm_source=share&utm_medium=member_desktop)
 Linked in URL : www.linkedin.com/in/ramyakrishnan19
 
 # Overview

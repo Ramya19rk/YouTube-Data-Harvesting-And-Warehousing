@@ -587,10 +587,9 @@ config = {
     'database': 'youtube_data_hw'
 }
 
-st.header(':violet[Channel Data Analysis zone]')
-st.write('''(Note:- This zone **Analysis of a collection of channel data** depends on your question selection and gives a table format output.)''')
-
-Check_channel = st.checkbox('**Check available channel data for analysis**')
+st.header(':violet[Channel Name Analysis zone]')
+st.write('''(Note:- This zone **Analysis of a collection of channel name** shows your Channel Names and gives in table format.)''')
+Check_channel = st.checkbox('**Check available channel name for analysis**')
 
 if Check_channel:
     conn = mysql.connector.connect(**config)

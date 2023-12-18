@@ -10,7 +10,7 @@ import time
 
 # API ID connection
 def api_connect():
-    Api_Key = "AIzaSyD5rx3DDUFljbWzwDdrDUL3x6SMKpSJJdY"
+    Api_Key = "Enter your youtube api key"
     Api_service_name = "youtube"
     Api_version = "v3"
     youtube = build(Api_service_name,Api_version,developerKey = Api_Key)
@@ -143,7 +143,7 @@ def get_playlist_info(channel_id):
 
 #Upload to Mongodb
 
-client = pymongo.MongoClient("mongodb+srv://ramyakrishnan:vasukrish@cluster0.mkkbqj1.mongodb.net/?retryWrites=true&w=majority")
+client = pymongo.MongoClient("Enter your Mongodb connection link")
 db = client["youtube_data"]
 
 def channel_details(channel_id):
@@ -166,7 +166,7 @@ def channels_tabel():
 
     config = {'host' : 'localhost',
               'user' : 'root',
-              'password' : 'Arulezhil@71',
+              'password' : 'xxxxx',
               'database' : 'youtube_data_hw'}
 
     conn = mysql.connector.connect(**config)
@@ -236,7 +236,7 @@ def playlist_table():
     
     config = {'host' : 'localhost',
                   'user' : 'root',
-                  'password' : 'Arulezhil@71',
+                  'password' : 'xxxxx',
                   'database' : 'youtube_data_hw'}
 
     conn = mysql.connector.connect(**config)
@@ -320,7 +320,7 @@ def videos_table():
 
     config = {'host' : 'localhost',
                   'user' : 'root',
-                  'password' : 'Arulezhil@71',
+                  'password' : 'xxxxx',
                   'database' : 'youtube_data_hw'}
 
     conn = mysql.connector.connect(**config)
@@ -422,7 +422,7 @@ def comments_table():
 
     config = {'host' : 'localhost',
               'user' : 'root',
-              'password' : 'Arulezhil@71',
+              'password' : 'xxxxx',
               'database' : 'youtube_data_hw'}
 
     conn = mysql.connector.connect(**config)
@@ -615,7 +615,7 @@ if Check_channel:
 
 config = {'host' : 'localhost',
           'user' : 'root',
-          'password' : 'Arulezhil@71',
+          'password' : 'xxxxx',
           'database' : 'youtube_data_hw'}
 
 conn = mysql.connector.connect(**config)
@@ -788,7 +788,7 @@ if sql_query:
 config = {
     'host': 'localhost',
     'user': 'root',
-    'password': 'Arulezhil@71',
+    'password': 'xxxxx',
     'database': 'youtube_data_hw'
 }
 # Streamlit app
